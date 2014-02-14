@@ -1,0 +1,4 @@
+plugins
+=======
+
+pmmp,pocketmine-mp
