@@ -4,7 +4,7 @@
 __PocketMine Plugin__
 name=teamwork
 description=do teamwork
-version=1.0
+version=1.1
 author=ashead1
 class=teamwork
 apiversion=10,11,12
