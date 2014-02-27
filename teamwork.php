@@ -42,7 +42,7 @@ E-MAIL : roharon@naver.com
 	public function init(){
 
     $this->api->addHandler("player.death", array($this, "eventHandler"), 100);
-	$this->api->addHandler("player.gamemode.change", array($this, "eventHandler"), 100);
+    $this->api->addHandler("player.gamemode.change", array($this, "eventHandler"), 100);
 
     }
        public function eventHandler($data, $event)
@@ -53,10 +53,10 @@ E-MAIL : roharon@naver.com
         case 'player.death':
         
             $this->api->console->run("kill @all");	
-			 $this->api->chat->broadcast("Do TEAM-WORK");
+			 $this->api->chat->broadcast("Do TEAM-WORK!");
 		case 'player.gamemode.change':
 			
-			$this->api->chat->broadcast("Everybody change to survival");
+			$this->api->chat->broadcast("Everybody change to survival!");
 			$this->api->console->run("gamemode 0 @all");
 			
         
